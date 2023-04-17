@@ -36,3 +36,47 @@
     transform: rotate(360deg);
   }
 }
+
+.add-product{
+  border-top: 1px solid #000;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+form input{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.App ul{
+  margin: auto;
+  list-style: none;
+  width: 300px;
+  max-height: 300px;
+  overflow-y: scroll;
+  padding: 20px;
+}
+ .App ul li{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 30px;
+  border-bottom: 1px solid gray;
+  text-transform: uppercase;
+  padding: 5px;
+
+ }
+ .App ul li span button{
+  background-color: red;
+  border: none;
+  padding: 5px;
+  color: white;
+  width: 50px;
+  border-radius: 5px;
+ }
